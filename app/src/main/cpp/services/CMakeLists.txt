@@ -1,0 +1,12 @@
+set(game_SRCS
+  ${game_SRCS}
+  services/Service
+  services/ServiceManager
+  services/RenderService
+  services/AudioService
+  services/LogicService
+  services/UIService
+  services/WorkspaceService
+  services/Observer
+  services/Observable
+  PARENT_SCOPE)

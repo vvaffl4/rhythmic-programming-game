@@ -1,0 +1,13 @@
+//
+// Created by patri on 5/8/2018.
+//
+
+#ifndef RHYTHMIC_PROGRAMMING_GAME_LANESIDE_H
+#define RHYTHMIC_PROGRAMMING_GAME_LANESIDE_H
+
+enum LaneSide {
+    LEFT,
+    RIGHT
+};
+
+#endif //RHYTHMIC_PROGRAMMING_GAME_LANESIDE_H

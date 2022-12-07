@@ -1,0 +1,11 @@
+set(game_SRCS
+  ${game_SRCS}
+  sprite/Sprite
+  sprite/SpriteDefinition
+  sprite/Spritesheet
+  sprite/SpritesheetFactory
+  sprite/SpritesheetFont
+  sprite/SpritesheetFontFactory
+  sprite/SpriteString
+  sprite/StringRenderData.cpp
+  PARENT_SCOPE)

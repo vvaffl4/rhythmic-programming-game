@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="protobeat.composer.gui.component.ApplicationToolbar">
+  <grid id="27dc6" binding="toolbarPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="3">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ae2a5" class="javax.swing.JButton" binding="openButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="protobeat/composer/res/file-audio-o@16.png"/>
+          <text value="Open"/>
+        </properties>
+      </component>
+      <component id="8a93e" class="javax.swing.JButton" binding="exportButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="protobeat/composer/res/floppy-o@16.png"/>
+          <text value="Export"/>
+        </properties>
+      </component>
+      <component id="10205" class="javax.swing.JButton" binding="importButton">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="protobeat/composer/res/folder-open-o@16.png"/>
+          <text value="Import"/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+    </children>
+  </grid>
+</form>

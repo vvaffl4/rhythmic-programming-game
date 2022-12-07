@@ -1,0 +1,19 @@
+set(game_SRCS
+  ${game_SRCS}
+  uiobjects/UIObject
+  uiobjects/UIButton
+  uiobjects/UIImage
+  uiobjects/BeatHitDetectionButton
+  uiobjects/BeatLane
+  uiobjects/MainMenuButton
+  uiobjects/ReplayButton
+  uiobjects/ScreenBeat
+  uiobjects/TapBeat
+  uiobjects/HoldBeat
+  uiobjects/StartButton
+  uiobjects/LeaderboardButton
+  uiobjects/Label
+  uiobjects/TexturedButton
+  uiobjects/PlayButton
+  uiobjects/LevelSelectionButton
+  PARENT_SCOPE)
